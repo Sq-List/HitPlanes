@@ -16,7 +16,6 @@ public class GameBackground extends JPanel
 		this.backgroundImage = background;
 	}
 	
-	//»­³ö±³¾°Í¼Æ¬
 	@Override
 	protected void paintComponent(Graphics g)
 	{

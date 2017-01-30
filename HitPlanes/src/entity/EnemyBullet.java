@@ -11,12 +11,12 @@ import javax.swing.ImageIcon;
 import tools.Config;
 import ui.GamePlay;
 
-//敌方子弹的抽象
+//碌脨路陆脳脫碌炉碌脛鲁茅脧贸
 public class EnemyBullet
 {
 	private int yspeed;
 	private int xspeed;
-	//子弹是否向左
+	//脳脫碌炉脢脟路帽脧貌脳贸
 	private boolean right;
 	private int x;
 	private int y;
@@ -24,7 +24,7 @@ public class EnemyBullet
 	private int width;
 	private int height;
 	private int enemyType;
-	//子弹的图片
+	//脳脫碌炉碌脛脥录脝卢
 	private ImageIcon bulletImage;
 	private GamePlay gamePlay;
 	
@@ -41,7 +41,7 @@ public class EnemyBullet
 		this.xspeed = random.nextInt(5);
 	}
 	
-	//画出图片
+	//禄颅鲁枚脥录脝卢
 	public void draw(Graphics g)
 	{
 		if (live)
@@ -51,7 +51,7 @@ public class EnemyBullet
 		move();
 	}
 	
-	//移动
+	//脪脝露炉
 	private void move()
 	{
 		if (right)
@@ -77,7 +77,7 @@ public class EnemyBullet
 		
 	}
 	
-	//设置图片
+	//脡猫脰脙脥录脝卢
 	public void setBulletImage(ImageIcon bulletImage)
 	{
 		this.bulletImage = bulletImage;
